@@ -14,6 +14,7 @@ spec:
         app: node-app
     spec:
       containers:
-      - image: node-app:1.0
+      #- image: node-app:1.0
+      - image: localhost:5000/node-app:1.0
         name: node-app
         resources: {}

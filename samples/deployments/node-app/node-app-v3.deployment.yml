@@ -13,6 +13,7 @@ spec:
         app: node-app
     spec:
       containers:
-      - image: node-app:3.0
+      #- image: node-app:3.0
+      - image: localhost:5000/node-app:3.0
         name: node-app
         resources: {}
